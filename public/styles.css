@@ -1,0 +1,655 @@
+.background {
+    background-color: #FFFBEB;
+}
+
+/* Header */
+
+header {
+    background-color: #FEF3C7;
+}
+
+.headerimg {
+    margin-left: 32px;
+}
+
+.nav-pills {
+    margin-right: 32px;
+}
+
+@media (max-width: 600px) {
+    .headerimg {
+        margin-left: 0px;
+    }
+
+    .nav-pills {
+        margin-right: 0px;
+    }
+}
+
+
+.titlefont {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-left: 8px;
+}
+
+.menufont {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+/* Hero Section */
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .heroimage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; 
+  }
+  
+  .centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .content {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .herofont {
+    text-align: center;
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem; 
+    margin-bottom: 20px;
+  }
+  
+  .herofontp {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem; 
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem; 
+  }
+  
+  .herob {
+    color: white !important;
+    background-color: #D97706 !important;
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-size: 1rem !important;
+  }
+  
+  .herob2 {
+    border-color: #D97706 !important;
+    color: #D97706 !important;
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto !important;
+    font-weight: 600 !important;
+    font-style: normal !important;
+    font-size: 1rem !important;
+  }
+
+/* Our story */
+
+.ourstory {
+    text-align: center;
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 32px;
+    padding-top: 80px;
+}
+
+.ourstoryp1 {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.ourstoryp2 {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.ourstoryp3 {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.centered2 {
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+
+.ourstoryimage {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Our Menu */
+
+.menu-container {
+    text-align: center;
+}
+
+.ourmenub {
+    display: block !important;
+    margin: 32px auto !important;
+    color: #78350F !important;
+    font-family: "Playfair Display", serif !important;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.menub {
+    margin: 32px auto !important;
+   background-color: #D97706 !important;
+   color: white !important;
+   border: none !important;
+   font-family: "Playfair Display", serif !important;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 18px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card {
+    width: 325px;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    border: none !important;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 16px;
+}
+
+.ourmenu {
+    text-align: center;
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.ourmenup1 {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.espresso {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.espressoh {
+    text-align: center;
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.espressop {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.latte {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.latteh {
+    text-align: center;
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.lattep {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.americano {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.americanoh {
+    text-align: center;
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.americanop {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+/* Gallery */
+
+.gallery-container {
+    text-align: center !important;
+}
+
+.galleryb {
+margin: 32px auto !important;
+background-color: #D97706 !important;
+color: white !important;
+border: none !important;
+font-family: "Playfair Display", serif !important;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;
+font-size: 18px;
+}
+
+.card-containerg {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 0 20px;
+}
+
+.cardg {
+  border-radius: 8px;
+  overflow: hidden;
+  border: none;
+}
+
+.cardg img{
+    width: 330px;
+    height: auto;
+    display: block;
+}
+
+.gallery {
+    text-align: center;
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.galleryp1 {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Get in Touch */
+
+.getintouchc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: block;
+    margin: 0 auto;
+    max-width: 512px;
+    width: 100%;
+}
+
+.form-control {
+    background-color: #FEF3C7 !important;
+    border-color: #FDE68A !important;
+    width: 100%; 
+    padding: 10px !important;
+    height: 44px;
+}
+
+.fcmessage {
+    height: 164px;
+}
+
+::placeholder {
+    color: #9CA3AF !important;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.getintouchb {
+    display: block !important;
+    margin: 16px auto !important;   
+    background-color: #D97706 !important;
+   color: white !important;
+   border: none !important;
+   font-family: "Playfair Display", serif !important;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+   font-size: 18px;
+   margin-bottom: 80px !important;
+}
+
+.getintouch {
+    text-align: center;
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    margin-top: 80px;
+    margin-bottom: 32px;
+}
+
+.getintouchp {
+    text-align: center;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #78350F;
+    padding: 0px 0;
+}
+
+.footer-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.footerh {
+    color: #FFFBEB;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.footerp {
+    color: #FFFBEB;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+footer.nav {
+display: flex;
+justify-content: center;  
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+padding: 0;
+}
+
+.footermenu {
+    margin: 0 4px 32px !important;
+}
+
+footer.nav-link {
+    color: #FFFBEB;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.footerimg {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+/* MENU PAGE */
+
+
+.hotdrinksh {
+    color: #78350F;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    position: relative;
+    z-index: 2;
+}
+
+.itemsp {
+    text-align: center !important;
+    color: #78350F;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    position: relative;
+    z-index: 2;
+}
+
+.hotdrinksc,
+.hotdrinks,
+.hotdrinksf,
+.hotdrinksp {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.hotdrinksc::before,
+.hotdrinks::before,
+.hotdrinksf::before,
+.hotdrinksp::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.hotdrinks::before {
+    background-image: url('/images/hotdrinks.png');
+}
+
+.hotdrinksc::before {
+    background-image: url('/images/colddrinks.png');
+}
+
+.hotdrinksf::before {
+    background-image: url('/images/food.png');
+}
+
+.hotdrinksp::before {
+    background-image: url('/images/pastry.png');
+}
+
+
+.itemsp::before {
+    content: attr(data-fulltext);
+}
+
+@media (max-width: 600px) {
+    .itemsp::before {
+        content: attr(data-shorttext);
+    }
+}
+
+
+/* Contact Page */
+
+.contact {
+    background-color: #FEF3C7 !important;
+    border-color: #FDE68A !important;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 8px ;
+}
+
+.map-container {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    margin-top: 20px;
+}
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+
+/* Gallery Page */
+.carousel-image {
+    max-height: 600px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensures the image covers the element's entire content box */
+}
+
+#carouselAvantaj {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
